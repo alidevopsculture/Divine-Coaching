@@ -1,4 +1,3 @@
-README Structure Breakdown (Think like a product spec)
 Project Overview
 Name: Divine-Coaching.
 Purpose: Educate your target audience with a sleek, responsive website—built using the Mentor Bootstrap theme with full-course pages, trainer profiles, events, pricing, and contact info.
@@ -42,3 +41,4 @@ License & Attribution
 Originally based on the Mentor theme by BootstrapMade
 Insert license as per BootstrapMade’s terms
 Link back to the original theme
+
