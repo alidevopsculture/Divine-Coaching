@@ -787,6 +787,417 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Global Responsive Design
+--------------------------------------------------------------*/
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-title h2 {
+    font-size: 28px;
+  }
+  
+  .section-title p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 24px;
+  }
+  
+  .section-title p {
+    font-size: 14px;
+  }
+  
+  .row {
+    margin: 0 -10px;
+  }
+  
+  .row > * {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+  
+  .section-title h2 {
+    font-size: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Header Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .header .logo img {
+    width: 120px;
+    max-height: 45px;
+  }
+  
+  .header .btn-getstarted {
+    padding: 6px 15px;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .logo img {
+    width: 100px;
+    max-height: 40px;
+  }
+  
+  .header .btn-getstarted {
+    padding: 5px 12px;
+    font-size: 11px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .hero {
+    height: 35rem;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 30rem;
+  }
+  
+  .hero h2 {
+    font-size: 28px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .hero-content {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 25rem;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# About Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .about .content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .about .content ul li {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  
+  .about .content .read-more {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Why Us Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .advanced-glass-section {
+    padding: 60px 0;
+  }
+  
+  .advanced-card {
+    padding: 30px;
+  }
+  
+  .batch-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advanced-glass-section {
+    padding: 40px 0;
+  }
+  
+  .advanced-card {
+    padding: 20px;
+  }
+  
+  .batch-box {
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .batch-box h4 {
+    font-size: 14px;
+  }
+  
+  .batch-box p {
+    font-size: 12px;
+  }
+  
+  .emoji-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .batch-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .advanced-card {
+    padding: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Notice Board Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .notice-board {
+    padding: 40px 10px;
+  }
+  
+  .notice-item {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Divine Toppers Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .divine-toppers .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .divine-toppers .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .topper-content {
+    padding: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Trainers Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .trainers .member .member-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trainers .member .member-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .trainers .member .member-info h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .trainers .member .member-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .trainers .member .member-info h4 {
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Gallery Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .gallery-card {
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-card {
+    height: 200px;
+  }
+  
+  #gallery-grid .row {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-card {
+    height: 180px;
+  }
+  
+  #gallery-grid .col-lg-4,
+  #gallery-grid .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer Responsive
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .footer .footer-top {
+    padding-top: 40px;
+  }
+  
+  .footer .col-lg-4,
+  .footer .col-lg-2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .footer-about .logo span {
+    font-size: 22px;
+  }
+  
+  .footer h4 {
+    font-size: 14px;
+  }
+  
+  .footer-query .query-form input,
+  .footer-query .query-form textarea {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+  
+  .footer .footer-top {
+    padding-top: 30px;
+  }
+  
+  .footer .social-links a {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Courses Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .course-item img {
+    height: 160px;
+  }
+  
+  .course-content .description {
+    font-size: 0.9rem;
+    min-height: 60px;
+  }
+  
+  .course-content .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact Section Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .contact .info-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact .info-item i {
+    margin: 0 auto 10px;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
+
+/*--------------------------------------------------------------
+# General Mobile Optimizations
+--------------------------------------------------------------*/
+@media (max-width: 576px) {
+  section, .section {
+    padding: 40px 0;
+  }
+  
+  .btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+  
+  h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 18px; }
+  h4 { font-size: 16px; }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
@@ -1336,16 +1747,30 @@ section,
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  aspect-ratio: 16/9;
+  height: 250px;
   transition: transform 0.3s ease;
   background-color: #000;
 }
 
-.gallery-card img {
+.gallery-card img,
+.gallery-card video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .gallery-card {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-card {
+    height: 180px;
+  }
 }
 
 .gallery-card:hover img {
@@ -1395,18 +1820,50 @@ section,
 }
 
 .topper-content h4 {
-  font-size: 20px;
+  font-size: 16px;
   color: #111;
 }
 
 .topper-content span {
-  font-size: 14px;
+  font-size: 12px;
   color: #0d6efd;
 }
 
 .topper-content p {
   font-size: 14px;
   line-height: 1.6;
+}
+
+.topper-content {
+  padding: 15px;
+}
+
+.topper-image img {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .divine-toppers .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .topper-content {
+    padding: 12px;
+  }
+  
+  .topper-content h4 {
+    font-size: 14px;
+  }
+  
+  .topper-content span {
+    font-size: 11px;
+  }
+  
+  .topper-image img {
+    height: 150px;
+  }
 }
 
 .social-icons a {
